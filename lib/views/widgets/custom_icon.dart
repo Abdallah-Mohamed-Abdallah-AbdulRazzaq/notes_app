@@ -8,6 +8,8 @@ class CustomSearchIcon extends StatelessWidget {
     return Container(
       height: 46,
       width: 46,
+      decoration: BoxDecoration(
+      )
     );
   }
 }
