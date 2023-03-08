@@ -7,7 +7,7 @@ class CustomAppBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Text('Notes')
+        Text('Notes' , style:TextStyle(),)
 
 
       ],
