@@ -7,6 +7,7 @@ class CustomSearchIcon extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 46,
+      width: 46,
     );
   }
 }
