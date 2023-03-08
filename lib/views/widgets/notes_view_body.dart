@@ -7,10 +7,23 @@ class NotesViewBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
 children: [
-  
+      CustomAppBar()
 ],
 
     );
     
   }
 }
+
+
+class CustomAppBar extends StatelessWidget {
+  const CustomAppBar({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Row();
+  }
+}
+
+
+
