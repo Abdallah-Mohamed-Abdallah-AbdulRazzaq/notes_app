@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/constants.dart';
 
 import 'custom_text_field.dart';
 class AddNoteBottomSheet extends StatelessWidget {
@@ -35,6 +36,8 @@ class CustomButton extends StatelessWidget {
     return Container(
       width: MediaQuery.of(context).size.width,
       height: 55,
+      decoration: BoxDecoration(color: kPrimaryColor , borderRadius: BorderRadius.circular(8)),
+      
     );
   }
 }
