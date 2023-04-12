@@ -43,7 +43,7 @@ class NoteItem extends StatelessWidget {
             subtitle: Text('build your career with Abdallah Mohamed', style: TextStyle(color: Colors.black),),
             trailing: IconButton(
               onPressed: () {},
-              icon: Icon(Icons.delete),
+              icon: Icon(Icons.delete ,color: Colors.black,),
                )
           )
         ],
