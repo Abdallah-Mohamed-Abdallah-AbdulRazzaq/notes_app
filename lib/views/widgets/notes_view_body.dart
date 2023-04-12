@@ -34,8 +34,9 @@ class NoteItem extends StatelessWidget {
       decoration: BoxDecoration(
         color: Colors.yellow,
         borderRadius: BorderRadius.circular(16),
+      ),
+      child: Column()
 
-      )
     );
   }
 }
