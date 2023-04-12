@@ -22,6 +22,7 @@ class AddNoteBottomSheet extends StatelessWidget {
             hint: 'Content' ,
             maxLines: 5,
           ),
+          CustomButton(),
         ],
       ),
     );
