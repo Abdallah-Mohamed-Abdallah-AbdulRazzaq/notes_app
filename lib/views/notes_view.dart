@@ -3,6 +3,7 @@ import 'dart:html';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:myapp/views/widgets/add_note_bottom_sheet.dart';
 //Change theme and creat notes view 
 
 import 'widgets/notes_view_body.dart';
@@ -15,7 +16,7 @@ class NotesView extends StatelessWidget {
     return   Scaffold(
       floatingActionButton: FloatingActionButton(onPressed: (){
         showModalBottomSheet(context: context, builder: (context){
-          return Container();
+          return const AddNoteBottomSheet();
         });
          
       } , child: const Icon(Icons.add),),
