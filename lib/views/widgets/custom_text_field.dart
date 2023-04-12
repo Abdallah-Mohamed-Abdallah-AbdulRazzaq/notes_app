@@ -5,6 +5,9 @@ import '../../constants.dart';
 class CustomTextField extends StatelessWidget {
   const CustomTextField({super.key});
 
+  final String hint;
+  final int maxLines;
+
   @override
   Widget build(BuildContext context) {
     return TextField(
