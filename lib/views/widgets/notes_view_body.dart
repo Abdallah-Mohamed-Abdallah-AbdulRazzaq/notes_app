@@ -35,7 +35,11 @@ class NoteItem extends StatelessWidget {
         color: Colors.yellow,
         borderRadius: BorderRadius.circular(16),
       ),
-      child: Column()
+      child: Column(
+        children: [
+          
+        ],
+      )
 
     );
   }
