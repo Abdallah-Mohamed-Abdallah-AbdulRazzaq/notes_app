@@ -37,6 +37,7 @@ class NoteItem extends StatelessWidget {
         borderRadius: BorderRadius.circular(16),
       ),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           ListTile(
 
