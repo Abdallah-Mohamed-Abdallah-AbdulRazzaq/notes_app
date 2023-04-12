@@ -38,7 +38,9 @@ class NoteItem extends StatelessWidget {
       child: Column(
         children: [
           ListTile(
-            
+            title: Text('Flutter Tips'),
+
+
           )
 
         ],
