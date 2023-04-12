@@ -33,7 +33,7 @@ class NoteItem extends StatelessWidget {
     return Container(
 
       decoration: BoxDecoration(
-        color: Colors.yellow,
+        color: Color(0xffFFCC80),
         borderRadius: BorderRadius.circular(16),
       ),
       child: Column(
