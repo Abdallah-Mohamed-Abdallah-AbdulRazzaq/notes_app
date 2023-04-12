@@ -33,7 +33,7 @@ class NoteItem extends StatelessWidget {
     return Container(
 
       decoration: BoxDecoration(
-        color: Color(0xffFFCC80),
+        color:const Color(0xffFFCC80),
         borderRadius: BorderRadius.circular(16),
       ),
       child: Column(
@@ -41,7 +41,7 @@ class NoteItem extends StatelessWidget {
         children: [
           ListTile(
 
-            title: Text('Flutter Tips' , style: TextStyle(color: Colors.black ,fontSize: 26),),
+            title: const Text('Flutter Tips' , style: TextStyle(color: Colors.black ,fontSize: 26),),
             subtitle: Text('build your career with Abdallah Mohamed', style: TextStyle(color: Colors.black.withOpacity(.4) , fontSize: 20),),
             trailing: IconButton(
               onPressed: () {},
