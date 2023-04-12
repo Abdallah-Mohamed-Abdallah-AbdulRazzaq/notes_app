@@ -31,7 +31,10 @@ class NoteItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
 
-      decoration: BoxDecoration()
+      decoration: BoxDecoration(
+        color: Colors.yellow,
+        
+      )
     );
   }
 }
