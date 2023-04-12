@@ -39,15 +39,17 @@ class NoteItem extends StatelessWidget {
       child: Column(
         children: [
           ListTile(
+
             title: Text('Flutter Tips' , style: TextStyle(color: Colors.black),),
             subtitle: Text('build your career with Abdallah Mohamed', style: TextStyle(color: Colors.black),),
             trailing: IconButton(
               onPressed: () {},
               icon: Icon(Icons.delete ,color: Colors.black,),
                )
-          )
+          ),
+          Text('May , 2022'),
         ],
-      )
+      ),
     );
   }
 }
