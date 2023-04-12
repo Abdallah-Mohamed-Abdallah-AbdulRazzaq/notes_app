@@ -40,13 +40,13 @@ class NoteItem extends StatelessWidget {
           ListTile(
             title: Text('Flutter Tips'),
             subtitle: Text('build your career with Abdallah Mohamed'),
-
-
+            trailing: IconButton(
+              onPressed: () {},
+              icon: Icon(Icons.delete),
+               )
           )
-
         ],
       )
-
     );
   }
 }
