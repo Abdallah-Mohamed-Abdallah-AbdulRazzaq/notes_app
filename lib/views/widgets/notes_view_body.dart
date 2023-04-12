@@ -15,7 +15,8 @@ class NotesViewBody extends StatelessWidget {
     
           ),
           
-           CustomAppBar()
+           CustomAppBar(),
+           NoteItem(),
            ],
     
       ),
@@ -42,7 +43,7 @@ class NoteItem extends StatelessWidget {
             subtitle: Text('build your career with Abdallah Mohamed'),
             trailing: IconButton(
               onPressed: () {},
-              icon: Icon(Icons.delete)
+              icon: Icon(Icons.delete),
                )
           )
         ],
