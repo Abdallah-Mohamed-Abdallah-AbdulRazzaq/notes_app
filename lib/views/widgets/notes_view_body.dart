@@ -37,7 +37,10 @@ class NoteItem extends StatelessWidget {
       ),
       child: Column(
         children: [
-          
+          ListTile(
+            
+          )
+
         ],
       )
 
