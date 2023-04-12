@@ -40,7 +40,7 @@ class NoteItem extends StatelessWidget {
         children: [
           ListTile(
             title: Text('Flutter Tips' , style: TextStyle(color: Colors.black),),
-            subtitle: Text('build your career with Abdallah Mohamed'),
+            subtitle: Text('build your career with Abdallah Mohamed', style: TextStyle(color: Colors.black),),
             trailing: IconButton(
               onPressed: () {},
               icon: Icon(Icons.delete),
